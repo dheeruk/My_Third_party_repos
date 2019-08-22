@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      body
+      {
+        background:red;
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to My Third party consuming application</h1>
+    <hr>
+  <h2>Your current ip:  {{Data.ip}}</h2>
+  <h2>Your continent_name: {{Data.continent_name}}</h2>
+  <h2>Your country_code: {{Data.country_code}}</h2>
+  <h2>Your country_name: {{Data.country_name}}</h2>
+  <h2>Your region_code: {{Data.region_code}}</h2>
+  <h2>Your region_name: {{Data.region_name}}</h2>
+  <h2>Your city_name: {{Data.city}}</h2>
+  <h2>Your Zip_code: {{Data.zip}}</h2>
+  <h2>Your capital: {{Data.location.capital}}</h2>
+<h2>Your language_code: {{Data.location.languages.0.code}}</h2>
+<h2>Your language_name: {{Data.location.languages.0.name}}</h2>
+
+<h2></h2>
+  </body>
+</html>
